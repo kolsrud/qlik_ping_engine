@@ -79,7 +79,7 @@ namespace PingEngine
 			return null;
 		}
 
-		static void Log(string msg)
+		private static void Log(string msg)
 		{
 			LogFile.WriteLine(msg);
 			LogFile.Flush();
